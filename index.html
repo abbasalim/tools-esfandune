@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotiSync - همگام‌سازی نوتیفیکیشن‌ها</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">NotiSync</div>
+            <ul class="nav-links">
+                <li><a href="#screenshots">اسکرین‌شات‌ها</a></li>
+                <li><a href="#features">ویژگی‌ها</a></li>
+                <li><a href="#how-it-works">نحوه کار</a></li>
+                <li><a href="#download">دانلود</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>NotiSync</h1>
+            <p>همگام‌سازی نوتیفیکیشن‌های گوشی شما با کامپیوتر</p>
+            <p>بدون نیاز به اینترنت - فقط با وای‌فای</p>
+            <a href="#download" class="cta-button">دانلود رایگان</a>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <h2 class="section-title">اسکرین‌شات‌های برنامه</h2>
+            <p style="text-align: center; color: rgba(255, 255, 255, 0.8); font-size: 1.2rem; margin-bottom: 2rem;">نگاهی به رابط کاربری زیبا و کاربردی NotiSync</p>
+            <div class="screenshots-grid">
+                <div class="screenshot-card">
+                    <div class="screenshot-image">
+                        <img src="images/mobile-app.jpg" alt="نسخه موبایل NotiSync">
+                       
+                    </div>
+                    <div class="screenshot-content">
+                        <h3>نسخه موبایل</h3>
+                        <p>رابط کاربری ساده و زیبای برنامه روی گوشی‌های اندروید</p>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-image">
+                        <img src="images/clipboard-app.jpg" alt="کپی کلیپ بورد  NotiSync" >
+                    </div>
+                    <div class="screenshot-content">
+                        <h3>کپی کلیپ بورد</h3>
+                        <p>محتوای کلیپ‌بورد کامپیوتر را در گوشی دریافت کنید</p>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-image">
+                        <img src="images/notifications.jpg" alt="نمایش نوتیفیکیشن‌ها"  style="display: none;" >
+                        <span>🔔 نمایش نوتیفیکیشن‌ها</span>
+                    </div>
+                    <div class="screenshot-content">
+                        <h3>نمایش نوتیفیکیشن‌ها</h3>
+                        <p>نمایش تمام نوتیفیکیشن‌های گوشی روی کامپیوتر</p>
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="screenshot-image">
+                        <img src="images/exclude_app.jpg" alt="استثنا کردن اپ‌ها">
+                    
+                    </div>
+                    <div class="screenshot-content">
+                        <h3>تنظیمات</h3>
+                        <p>کنترل کامل بر روی اپ‌های استثنا و تنظیمات اتصال</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">ویژگی‌های NotiSync</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M17 1.01L7 1c-1.1 0-1.99.9-1.99 2v18c0 1.1.89 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14zm-4.2-5.76v1.75L16 12l-3.2-2.98v1.7c-3.11.43-4.35 2.56-4.8 4.7 1.11-1.5 2.47-2.18 4.8-2.18z"/>
+                        </svg>
+                    </div>
+                    <h3>همگام‌سازی نوتیفیکیشن‌ها</h3>
+                    <p>تمام نوتیفیکیشن‌های گوشی شما روی کامپیوتر نمایش داده می‌شود</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/>
+                        </svg>
+                    </div>
+                    <h3>همگام‌سازی کلیپ‌بورد</h3>
+                    <p>محتوای کلیپ‌بورد کامپیوتر را در گوشی دریافت کنید</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" fill="none" stroke="#00ff7f" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>استثنا کردن اپ‌ها</h3>
+                    <p>قابلیت استثنا کردن اپ‌های خاص برای عدم ارسال نوتیفیکیشن</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M1 9l2 2c4.97-4.97 13.03-4.97 18 0l2-2C16.93 2.93 7.07 2.93 1 9zm8 8l3 3 3-3c-1.65-1.66-4.34-1.66-6 0zm-4-4l2 2c2.76-2.76 7.24-2.76 10 0l2-2C15.14 9.14 8.87 9.14 5 13z"/>
+                        </svg>
+                    </div>
+                    <h3>کار با وای‌فای</h3>
+                    <p>بدون نیاز به اینترنت و سرور خارجی - فقط وای‌فای محلی</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+                        </svg>
+                    </div>
+                    <h3>امنیت بالا</h3>
+                    <p>تمام داده‌ها در شبکه محلی شما باقی می‌ماند</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M13 3c-4.97 0-9 4.03-9 9H1l3.89 3.89.07.14L9 12H6c0-3.87 3.13-7 7-7s7 3.13 7 7-3.13 7-7 7c-1.93 0-3.68-.79-4.94-2.06l-1.42 1.42C8.27 19.99 10.51 21 13 21c4.97 0 9-4.03 9-9s-4.03-9-9-9zm-1 5v5l4.28 2.54.72-1.21-3.5-2.08V8H12z"/>
+                        </svg>
+                    </div>
+                    <h3>سرعت بالا</h3>
+                    <p>ارسال و دریافت فوری نوتیفیکیشن‌ها</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2 class="section-title">نحوه کار NotiSync</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>نصب برنامه</h3>
+                    <p>برنامه NotiSync را روی گوشی و کامپیوتر خود نصب کنید</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>اتصال وای‌فای</h3>
+                    <p>هر دو دستگاه را به یک شبکه وای‌فای متصل کنید</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>شروع همگام‌سازی</h3>
+                    <p>برنامه را اجرا کنید و از همگام‌سازی لذت ببرید</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <h2 class="section-title">دانلود NotiSync</h2>
+            <p>برنامه را برای پلتفرم مورد نظر خود دانلود کنید</p>
+            <div class="download-buttons">
+                <a href="https://golgavzabun.storage.c2.liara.space/notiSync/NotiSync-1.0.0.msi" class="download-btn windows">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M3 12V6.75l6-1.32v6.48L3 12zm17-9v8.75l-10 .15V5.21L20 3zM3 13l6 .09v6.81l-6-1.15V13zm17 .25V22l-10-1.91V13.1l10 .15z" fill="currentColor"/>
+                    </svg>
+                    <span>Windows</span>
+                </a>
+                <a href="#mac-guide" class="download-btn mac" onclick="showMacGuide()">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" fill="currentColor"/>
+                    </svg>
+                    <span>macOS</span>
+                </a>
+                <a href="#linux-guide" class="download-btn linux" onclick="showLinuxGuide()">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12.5 2C6.7 2 2 6.7 2 12.5S6.7 23 12.5 23 23 18.3 23 12.5 18.3 2 12.5 2zM12.5 21C7.8 21 4 17.2 4 12.5S7.8 4 12.5 4 21 7.8 21 12.5 17.2 21 12.5 21z" fill="currentColor"/>
+                        <path d="M8.5 8.5c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm7 0c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z" fill="currentColor"/>
+                        <path d="M12.5 15.5c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z" fill="currentColor"/>
+                        <path d="M10.5 11.5c0 .6.4 1 1 1s1-.4 1-1-.4-1-1-1-1 .4-1 1z" fill="currentColor"/>
+                    </svg>
+                    <span>Linux</span>
+                </a>
+                <a href="#" class="download-btn android">
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M17.523 15.3414c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993.0001.5511-.4482.9997-.9993.9997m-11.046 0c-.5511 0-.9993-.4486-.9993-.9997s.4482-.9993.9993-.9993c.5511 0 .9993.4482.9993.9993 0 .5511-.4482.9997-.9993.9997m11.4045-6.02l1.9973-3.4592a.416.416 0 00-.1521-.5676.416.416 0 00-.5676.1521l-2.0223 3.503C15.5902 8.1779 13.8533 7.8508 12 7.8508s-3.5902.3271-5.1367.9154L4.841 5.2633a.416.416 0 00-.5676-.1521.416.416 0 00-.1521.5676l1.9973 3.4592C2.6889 11.1867.3432 14.6589 0 18.761h24c-.3432-4.1021-2.6889-7.5743-6.1185-9.4396" fill="currentColor"/>
+                    </svg>
+                    <span>Android</span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Linux Guide Modal -->
+    <div id="linux-guide-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>راهنمای نصب NotiSync در لینوکس</h2>
+                <span class="close" onclick="closeLinuxGuide()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="guide-section">
+                    <h3>📦 نصب برای دبیان/اوبونتو</h3>
+                    <p>برای نصب NotiSync در سیستم‌های مبتنی بر دبیان (شامل اوبونتو، مینت، و ...) مراحل زیر را دنبال کنید:</p>
+                    
+                    <div class="code-block">
+                        <h4>مرحله 1: دانلود فایل .deb</h4>
+                        <code>wget https://golgavzabun.storage.c2.liara.space/notiSync/notisync_1.0.0-1_amd64.deb</code>
+                    </div>
+                    
+                    <div class="code-block">
+                        <h4>مرحله 2: نصب با dpkg</h4>
+                        <code>sudo dpkg -i notisync_1.0.0-1_amd64.deb</code>
+                    </div>
+                    
+                    <div class="code-block">
+                        <h4>مرحله 3: رفع وابستگی‌ها (در صورت نیاز)</h4>
+                        <code>sudo apt-get install -f</code>
+                    </div>
+                    
+                    <div class="code-block">
+                        <h4>مرحله 4: اجرای برنامه</h4>
+                        <code>notisync</code>
+                    </div>
+                </div>
+                
+                <div class="guide-section">
+                    <h3>🔧 روش جایگزین با apt</h3>
+                    <p>اگر ترجیح می‌دهید از apt استفاده کنید:</p>
+                    
+                    <div class="code-block">
+                        <h4>نصب مستقیم از URL</h4>
+                        <code>sudo apt install ./notisync_1.0.0-1_amd64.deb</code>
+                    </div>
+                </div>
+                
+                <div class="guide-section">
+                    <h3>⚠️ نکات مهم</h3>
+                    <ul>
+                        <li>اطمینان حاصل کنید که سیستم شما 64-bit است</li>
+                        <li>برای نصب نیاز به دسترسی sudo دارید</li>
+                        <li>در صورت بروز خطا، ابتدا وابستگی‌ها را نصب کنید</li>
+                        <li>برنامه پس از نصب در منوی برنامه‌ها قابل دسترسی است</li>
+                    </ul>
+                </div>
+                
+                <div class="guide-section">
+                    <h3>🆘 رفع مشکلات</h3>
+                    <p><strong>خطای وابستگی:</strong> از دستور <code>sudo apt-get install -f</code> استفاده کنید</p>
+                    <p><strong>خطای مجوز:</strong> اطمینان حاصل کنید که دسترسی sudo دارید</p>
+                    <p><strong>برنامه اجرا نمی‌شود:</strong> از ترمینال اجرا کنید تا خطاها را ببینید</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://golgavzabun.storage.c2.liara.space/notiSync/notisync_1.0.0-1_amd64.deb" class="download-link-btn">
+                    📥 دانلود فایل .deb
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- macOS Guide Modal -->
+    <div id="mac-guide-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>راهنمای نصب NotiSync در macOS</h2>
+                <span class="close" onclick="closeMacGuide()">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="guide-section">
+                    <h3>📱 مراحل نصب در macOS</h3>
+                    <p>برای نصب NotiSync در سیستم‌های macOS مراحل زیر را دنبال کنید:</p>
+                    
+                    <div class="mac-guide-steps">
+                        <div class="step-item">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <p>بعد از اینکه برروی <strong>NotiSync.dmg</strong> کلیک کرده و در پنجره باز شده، برنامه را به پوشه <strong>Application</strong> منتقل کردید. برروی آیکون برنامه در لیست برنامه‌های نصب شده دستگاه کلیک کنید.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <p>یک پنجره راجع به ناشناس بودن توسعه‌دهنده نمایش داده می‌شود که بدلیل تحریم‌های توسعه‌دهندگان ایرانی امکان حل این مشکل نیست، پس لازم هست دفعه اول مراحل زیر را پیش ببرید، برروی <strong>Done</strong> بزنید.</p>
+                                <div class="step-image">
+                                    <img src="images/hlp_mac_1.jpeg" alt="مرحله 2 - پیام امنیتی macOS" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <p>وارد <strong>تنظیمات سیستم عامل</strong> شده و در پایین بخش <strong>Privacy & Security</strong> برروی <strong>Open Anyway</strong> کلیک کنید. در پنجره باز شده مجدد برروی <strong>Open Anyway</strong> کلیک کرده رمز خود را وارد نمایید. (اگر کیبورد شما اثر انگشت دارد می‌توانید اثرانگشت بزنید.)</p>
+                                <div class="step-image">
+                                    <img src="images/hlp_mac_2.jpeg" alt="مرحله 3 - تنظیمات امنیتی macOS" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="step-item">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <p>حال می‌توانید بدون مشکل از برنامه استفاده نمایید. 🎉</p>
+                                <div class="success-message">
+                                    <span>✅ برنامه با موفقیت نصب شد!</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="guide-section">
+                    <h3>⚠️ نکات مهم</h3>
+                    <ul>
+                        <li>اطمینان حاصل کنید که سیستم شما macOS 10.14 یا بالاتر است</li>
+                        <li>برای نصب نیاز به دسترسی مدیر دارید</li>
+                        <li>در صورت بروز خطا، ابتدا تنظیمات امنیتی را بررسی کنید</li>
+                        <li>برنامه پس از نصب در Launchpad قابل دسترسی است</li>
+                    </ul>
+                </div>
+                
+                <div class="guide-section">
+                    <h3>🆘 رفع مشکلات</h3>
+                    <p><strong>خطای امنیتی:</strong> مراحل 2 و 3 را دوباره انجام دهید</p>
+                    <p><strong>برنامه باز نمی‌شود:</strong> از Finder برنامه را اجرا کنید</p>
+                    <p><strong>خطای مجوز:</strong> اطمینان حاصل کنید که دسترسی مدیر دارید</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="https://golgavzabun.storage.c2.liara.space/notiSync/NotiSync-1.0.0.dmg" class="download-link-btn">
+                    📥 دانلود فایل .dmg
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> NotiSync. تمامی حقوق محفوظ است.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add scroll effect to header
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(10, 10, 10, 0.95)';
+                header.style.boxShadow = '0 8px 32px rgba(0, 255, 127, 0.2)';
+            } else {
+                header.style.background = 'rgba(10, 10, 10, 0.8)';
+                header.style.boxShadow = '0 8px 32px rgba(0, 255, 127, 0.1)';
+            }
+        });
+
+        // Create floating particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 4) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Initialize particles
+        createParticles();
+
+        // Update current year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe feature cards and steps
+        document.querySelectorAll('.feature-card, .step').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+
+        // Linux Guide Modal Functions
+        function showLinuxGuide() {
+            document.getElementById('linux-guide-modal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLinuxGuide() {
+            document.getElementById('linux-guide-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // macOS Guide Modal Functions
+        function showMacGuide() {
+            document.getElementById('mac-guide-modal').style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMacGuide() {
+            document.getElementById('mac-guide-modal').style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            const linuxModal = document.getElementById('linux-guide-modal');
+            const macModal = document.getElementById('mac-guide-modal');
+            
+            if (event.target === linuxModal) {
+                closeLinuxGuide();
+            }
+            if (event.target === macModal) {
+                closeMacGuide();
+            }
+        }
+    </script>
+</body>
+</html>
